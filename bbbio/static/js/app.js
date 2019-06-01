@@ -119,7 +119,7 @@ function buildCharts(sample) {
       x: otu_ids,
       y: sample_values,
       text: otu_labels,
-      type:"bubble",
+      // type:"bubble",
       // color:otu_ids,
       // text: otu_labels,
       // size: sample_values,
@@ -127,7 +127,8 @@ function buildCharts(sample) {
       mode: "markers",
       marker: {        
         color:otu_ids,
-        size: sample_values
+        size: sample_values,
+        colorscale: "viridis"
       }
     };
   
