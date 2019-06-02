@@ -1,1 +1,1 @@
-web: gunicorn bbbio.app:app
+web: gunicorn app:app

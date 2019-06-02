@@ -36,8 +36,6 @@ Base.prepare(db.engine, reflect=True)
 Samples_Metadata = Base.classes.sample_metadata
 Samples = Base.classes.samples
 
-print(Samples_Metadata)
-
 
 @app.route("/")
 def index():
